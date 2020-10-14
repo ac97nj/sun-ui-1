@@ -835,6 +835,11 @@ follow-redirects@^1.0.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
+fonts.css@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/fonts.css/-/fonts.css-2.0.0.tgz#097e890a44c982c7df55cca8466e3ce7668b790c"
+  integrity sha512-Q1f9npa8JaN+HnIB29U+l50XFIJvawglX2Hx+vEjp6VsghQTPRy0/WISnDhY7ozvUs68TXq7F0KxtVU97uUVYw==
+
 fresh@~0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
