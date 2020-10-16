@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GSwitch  :value="Y"  @input=" Y = $event "/>
+    <GSwitch :value="toggle" @input=" toggle = $event "/>
   </div>
 </template>
 
@@ -9,15 +9,14 @@ import {ref} from 'vue';
 
 
 import GSwitch from '../lib/Switch.vue';
+
 export default {
-  name: "SwitchDome",
+  name: 'SwitchDome',
   components: {GSwitch},
-  setup(){
-    const Y = ref(false)
-
-    return {Y}
+  setup() {
+    const toggle = ref(false);
+    return {toggle};
   }
-
 
 
 };

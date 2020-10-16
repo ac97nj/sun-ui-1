@@ -1,21 +1,20 @@
 <template>
-  <button @click="AA" :class="{checked:checked}"><span></span></button>
+  <button @click="toggle" :class="{checked:value}"><span></span></button>
 </template>
 
 <script lang="ts">
-import {ref} from 'vue';
+// import {ref} from 'vue';
 
 export default {
   name: 'GSwitch',
-
-
-
-  setup() {
-    const checked = ref(false);
-    const AA = () => {
-      checked.value = !checked.value;
+  props: {
+    value: Boolean
+  },
+  setup(props, context) {
+    const toggle = () => {
+      context.emit('input', !props.value);
     };
-    return {checked, AA};
+    return {toggle};
   }
 
 
@@ -48,7 +47,7 @@ span {
   transition: left 1s;
 }
 
-button:focus{
+button:focus {
   outline: none;
 }
 
