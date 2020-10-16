@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="" />
+    <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonDome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DialogDome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SwitchDome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TabsDome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Doc.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -57,7 +69,8 @@
       <workItem from="1602636251417" duration="12000" />
       <workItem from="1602636314789" duration="1439000" />
       <workItem from="1602638499775" duration="227000" />
-      <workItem from="1602638800737" duration="7899000" />
+      <workItem from="1602638800737" duration="15761000" />
+      <workItem from="1602820447620" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -94,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602656368804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="调节 组件列表的位置">
+      <created>1602656685292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602656685292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,17 +128,18 @@
     <MESSAGE value="初步完成 Doc.vue 的样式" />
     <MESSAGE value="使用 flex 来调整列表样式" />
     <MESSAGE value="Topnav.vue使用 z-index提到最高盖住样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topnav.vue使用 z-index提到最高盖住样式" />
+    <MESSAGE value="调节 组件列表的位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="调节 组件列表的位置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="22" y="109" key="#Plugins" timestamp="1602638667603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="22" y="109" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1602638667602" />
-    <state x="127" y="23" key="CommitChangelistDialog2" timestamp="1602656368674">
+    <state x="429" y="23" key="CommitChangelistDialog2" timestamp="1602656685127">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="127" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1602656368674" />
+    <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1602656685127" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
