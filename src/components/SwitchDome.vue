@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GSwitch   v-model:value="toggle" />
+    <GSwitch v-model:value="bool"/>
   </div>
 </template>
 
@@ -14,11 +14,9 @@ export default {
   name: 'SwitchDome',
   components: {GSwitch},
   setup() {
-    const toggle = ref(false);
-    return {toggle};
+    const bool = ref(false);
+    return {bool};
   }
-
-
 };
 
 

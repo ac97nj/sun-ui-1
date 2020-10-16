@@ -8,7 +8,7 @@
 export default {
   name: 'GSwitch',
   props: {
-    value: Boolean
+    value: Boolean,
   },
   setup(props, context) {
     const toggle = () => {
