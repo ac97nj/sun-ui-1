@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/GButton.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/GButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/GButton.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1602636314789" duration="1439000" />
       <workItem from="1602638499775" duration="227000" />
       <workItem from="1602638800737" duration="15761000" />
-      <workItem from="1602820447620" duration="7722000" />
+      <workItem from="1602820447620" duration="8746000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -162,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602831489844</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Vue框架默认会把传过来的事件绑定到子组件的跟元素上面">
+      <created>1602836868506</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602836868506</updated>
+    </task>
+    <task id="LOCAL-00013" summary="inheritAtters:false 用来取消继承&#10;v-bind = $attrs 可以绑定到你想绑定的东西上面">
+      <created>1602837137535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602837137535</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,17 +204,19 @@
     <MESSAGE value="使用 input 和 Props 来接受控制数据" />
     <MESSAGE value="@update:toggleInput 正式命名" />
     <MESSAGE value="使用 v-model" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 v-model" />
+    <MESSAGE value="Vue框架默认会把传过来的事件绑定到子组件的跟元素上面" />
+    <MESSAGE value="inheritAtters:false 用来取消继承&#10;v-bind = $attrs 可以绑定到你想绑定的东西上面" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritAtters:false 用来取消继承&#10;v-bind = $attrs 可以绑定到你想绑定的东西上面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="22" y="109" key="#Plugins" timestamp="1602638667603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="22" y="109" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1602638667602" />
-    <state x="648" y="23" key="CommitChangelistDialog2" timestamp="1602831489712">
+    <state x="648" y="23" key="CommitChangelistDialog2" timestamp="1602837137395">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="648" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1602831489712" />
+    <state x="648" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1602837137395" />
     <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1602656685127" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <button v-bind="$attrs">
+  <div :size="size">
+    <button v-bind="rest">
       <slot></slot>
     </button>
   </div>
@@ -11,7 +11,11 @@
 
 export default {
   name: 'GButton',
-  inheritAttrs:false,
+  inheritAttrs: false,
+  setup(props, context) {
+    const {size,...rest} = context.attrs;
+    return {size,  rest};
+  }
 
 };
 
@@ -20,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 div {
-  border: 1px  solid;
+  border: 1px solid;
 }
 
 

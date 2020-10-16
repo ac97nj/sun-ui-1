@@ -4,6 +4,7 @@
         @click="onclick"
         @focus="onclick"
         @mouseover="onclick"
+        size="AAA"
     >
       按钮
     </GButton>
@@ -22,9 +23,7 @@ export default {
       console.log('hai');
     };
     return {onclick};
-
   }
-
 };
 
 
