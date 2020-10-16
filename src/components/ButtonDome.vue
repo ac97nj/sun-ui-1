@@ -2,8 +2,8 @@
   <div>
     <GButton
         @click="onclick"
-
-
+        @focus="onclick"
+        @mouseover="onclick"
     >
       按钮
     </GButton>
@@ -21,7 +21,7 @@ export default {
     const onclick = () => {
       console.log('hai');
     };
-    return { onclick }
+    return {onclick};
 
   }
 

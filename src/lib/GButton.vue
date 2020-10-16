@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button>
+    <button v-bind="$attrs">
       <slot></slot>
     </button>
   </div>
@@ -11,7 +11,7 @@
 
 export default {
   name: 'GButton',
-
+  inheritAttrs:false,
 
 };
 
