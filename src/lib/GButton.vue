@@ -4,6 +4,7 @@
       <slot></slot>
     </button>
   </div>
+  <button @mouseover="onMouseover">133</button>
 </template>
 
 <script lang="ts">
@@ -13,8 +14,8 @@ export default {
   name: 'GButton',
   inheritAttrs: false,
   setup(props, context) {
-    const {size,...rest} = context.attrs;
-    return {size,  rest};
+    const {size,onMouseover,...rest} = context.attrs;
+    return {size, onMouseover ,rest};
   }
 
 };
