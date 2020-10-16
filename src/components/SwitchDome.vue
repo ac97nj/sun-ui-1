@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GSwitch :value="toggle" @input=" toggle = $event "/>
+    <GSwitch :value="toggle" @update:toggleInput=" toggle = $event "/>
   </div>
 </template>
 
