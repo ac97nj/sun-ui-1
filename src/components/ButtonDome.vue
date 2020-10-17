@@ -1,14 +1,21 @@
 <template>
-  <div>
-    <GButton
-        @click="onclick"
-        @focus="onclick"
-        @mouseover="onclick"
-        size="AAA"
-    >
-      按钮
-    </GButton>
-  </div>
+  <div>Button 按钮</div>
+  <div>常用的操作按钮</div>
+  <div>基础用法</div>
+  <div>基础的按钮用法</div>
+  <GButton >
+    默认按钮
+  </GButton>
+  <GButton them="button">
+    主要按钮
+  </GButton>
+  <GButton them="link">
+    成功按钮
+  </GButton>
+  <GButton them="text">
+    成功按钮
+  </GButton>
+
 </template>
 
 <script lang="ts">
@@ -29,7 +36,7 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 
 </style>
