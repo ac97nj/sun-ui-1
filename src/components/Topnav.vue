@@ -19,7 +19,6 @@ export default {
     const toggle = () => {
       menVisible.value = !menVisible.value;
     };
-    console.log(menVisible.value);
     return {toggle: toggle};
   }
 

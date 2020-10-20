@@ -34,7 +34,6 @@ export default {
   components: {Topnav},
   setup() {
     const menVisible = inject<Ref<boolean>>('menVisible');  //get
-    console.log(menVisible.value);
     return {menVisible};
 
   }

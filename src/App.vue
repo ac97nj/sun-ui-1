@@ -10,7 +10,6 @@ export default {
   name: 'App',
   setup() {
     const width = document.documentElement.clientWidth;
-    console.log(width)
     const menVisible = ref(width <= 500 ?  false : true);
     provide('menVisible', menVisible);   //set
   }
