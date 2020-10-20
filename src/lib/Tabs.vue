@@ -6,16 +6,13 @@
            :key="index"
            :class="{selected: t === selectedValue}"
            @click="select(t)"
-
       >{{ t }}
       </div>
       <div class="sun-tabs-nav-indicator" ref="indicator"></div>
     </div>
     <div class="sun-tabs-content">
       <component class="sun-tabs-content-item"
-                 v-for=" (c,index) in defaults "
-                 :is="c" :key="index"
-                 :class="{selected: c.props.title === selectedValue }"
+                 :is="current" :key="current.props.title"
       />
     </div>
   </div>
@@ -28,7 +25,7 @@ import {
   ref,
   computed,
   onMounted,
-  onUpdated
+  onUpdated,
 } from 'vue';
 import Tab from './Tab.vue';
 
@@ -61,13 +58,10 @@ export default {
       } = result.getBoundingClientRect();
       const left = left2 - left1;
       indicator.value.style.left = left + 'px';
-
     };
 
-    onMounted(X);
-
-    onUpdated(X);
-
+    onMounted(X);  //重要的第一次执行
+    onUpdated(X);  //后面更新时刻执行
 
     const defaults = context.slots.default();
     defaults.forEach((tag) => {
@@ -81,13 +75,19 @@ export default {
     const select = (title: string) => {
       context.emit('update:selected', title);
     };
+    const  current = computed( ()=>{
+      return  defaults.find( tag=> tag.props.title === props.selectedValue )
+    } )
+    console.log(current)
+
     return {
       defaults,
       titles,
       select,
       navItems,
       indicator,
-      container
+      container,
+      current
     };
   }
 };
@@ -133,16 +133,6 @@ export default {
   // sun-tabs-content-item
   &-content {
     padding: 8px 0;
-
-    .sun-tabs-content-item {
-      display: none;
-
-      &.selected {
-        display: block;
-      }
-
-    }
-
   }
 }
 
