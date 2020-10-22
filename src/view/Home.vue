@@ -10,10 +10,25 @@
       </p>
     </div>
   </div>
+  <div class="features">
+    <svg class="icon">
+      <use xlink:href="#icon-Vue"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="#icon-TS"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="#icon-Lamp"></use>
+    </svg>
+
+
+  </div>
 </template>
 
 <script lang="ts">
-import Topnav from "../components/Topnav.vue";
+import Topnav from '../components/Topnav.vue';
+
+
 
 export default {
   components: {Topnav}
@@ -24,24 +39,41 @@ export default {
 
 <style lang="scss" scoped>
 
+
+.features {
+
+  > svg {
+    width: 64px;
+    height: 64px;
+  }
+
+}
+
+
 .banner {
+  color: #1e40c8;
   padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: lightgreen;
+  background: linear-gradient(90deg, rgba(238, 243, 250, 1) 0%, rgba(229, 236, 248, 1) 36%, rgba(128, 174, 244, 1) 100%);
+
 
   > .actions {
-    padding: 8px  0;
-    a{
-      margin: 0  8px ;
-      background: #fff;
+    padding: 8px 0;
+
+    a {
+      margin: 0 8px;
+      background: #1e40c8;
+      color: white;
       display: inline-block;
-      height: 28px;
-      line-height: 28px;
-      border-radius: 14px;
-      padding: 0  8px;
+      padding: 8px 24px;
+      border-radius: 25px;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
 
   }
