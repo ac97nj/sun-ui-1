@@ -1,9 +1,10 @@
 <template>
-  <button class="sun-switch" @click="toggle" :class="{'sun-checked':value}"><span></span></button>
+  <button class="sun-switch" @click="toggle"  :class="{'sun-checked':value}">
+    <span></span>
+  </button>
 </template>
 
 <script lang="ts">
-// import {ref} from 'vue';
 
 export default {
   name: 'GSwitch',

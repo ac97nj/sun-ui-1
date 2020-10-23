@@ -20,21 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/markdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/GetStarted.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GetStarted.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/install.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GetStarted.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/install.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/intro.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
       <workItem from="1603247860928" duration="473000" />
       <workItem from="1603347464894" duration="5708000" />
       <workItem from="1603415988096" duration="7170000" />
-      <workItem from="1603427112480" duration="1727000" />
+      <workItem from="1603427112480" duration="6134000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -252,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603422308877</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="优化 markdown.vue代码">
+      <created>1603429375316</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603429375317</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +295,8 @@
     <MESSAGE value="重新正确的使用 current ,使用key 的方式" />
     <MESSAGE value="使用链接添加 icon" />
     <MESSAGE value="引入github 样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入github 样式" />
+    <MESSAGE value="优化 markdown.vue代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化 markdown.vue代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="74" y="297" key="#Notifications" timestamp="1603075854082">
@@ -309,10 +312,14 @@
     </state>
     <state x="170" y="266" key="#com.intellij.fileTypes.FileTypeChooser/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603422698689" />
     <state x="170" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1603096548678" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603422308667">
+    <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603429451208">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603422308667" />
+    <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429451208" />
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603429375118">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429375118" />
     <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603365167968" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />
@@ -327,6 +334,10 @@
     </state>
     <state x="0" y="100" key="SettingsEditor/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603160200337" />
     <state x="0" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1602639036364" />
+    <state x="53" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603433155023">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="53" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603433155023" />
     <state x="93" y="218" width="524" height="486" key="find.popup" timestamp="1603367065114">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

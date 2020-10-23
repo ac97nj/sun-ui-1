@@ -5,9 +5,6 @@ import switchDome from './components/SwitchDome.vue';
 import dialogDome from './components/DialogDome.vue';
 import buttonDome from './components/ButtonDome.vue';
 import tabsDome from './components/TabsDome.vue';
-import intro from './view/intro.vue';
-import install from './view/install.vue';
-import GetStarted from './view/GetStarted.vue';
 import {h} from 'vue';
 import Markdown from './components/markdown.vue'
 
