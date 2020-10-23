@@ -76,7 +76,6 @@ export default {
 <style lang="scss">
 .sun-dialog-overlay {
   position: fixed;
-  border: 1px solid red;
   top: 0;
   left: 0;
   width: 100%;
@@ -132,7 +131,6 @@ export default {
     font-size: 20px;
     width: 25px;
     height: 25px;
-    border: 1px solid;
     border-radius: 12.5px;
     color: red;
   }

@@ -4,7 +4,7 @@
       :class="classes"
       :disabled="disabled"
   >
-    <span v-if="loading"  class="sun-loading-icon"></span>
+    <span v-if="loading" class="sun-loading-icon"></span>
     <slot></slot>
   </button>
 </template>
@@ -69,7 +69,8 @@ export default {
   border-radius: 4px;
   box-shadow: 0 1px fade-out(black, 0.95); //淡化黑色
   transition: backgroun 250ms;
-  >.sun-loading-icon{
+
+  > .sun-loading-icon {
     width: 14px;
     height: 14px;
     display: inline-block;
@@ -82,8 +83,12 @@ export default {
   }
 
   @keyframes sun-spin {
-    0%{transform: rotate(0deg)}
-    100%{transform: rotate(360deg)}
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
   }
 
   &.sun-theme-button {
