@@ -10,9 +10,11 @@
         <Button>查看代码</Button>
       </div>
       <div class="demo-code">
-        <pre>
-            {{ Switch1Demo.__sourceCode }}
+         <pre
+             class="language-html"
+             v-html="Prism.highlight(Switch1Demo.__sourceCode, Prism.languages.html, 'html')"  >
         </pre>
+
       </div>
     </div>
     <div class="demo">
@@ -24,8 +26,9 @@
         <GButton>查看代码</GButton>
       </div>
       <div class="demo-code">
-        <pre>
-          {{ Switch2Demo.__sourceCode }}
+        <pre
+            class="language-html"
+            v-html="Prism.highlight(Switch2Demo.__sourceCode, Prism.languages.html, 'html')"  >
         </pre>
       </div>
     </div>
@@ -41,6 +44,12 @@ import GSwitch from '../lib/Switch.vue';
 import GButton from '../lib/GButton.vue';
 
 
+import 'prismjs' ;
+import 'prismjs/themes/prism.css';
+
+const Prism = (window as any).Prism;
+
+
 export default {
   name: 'SwitchDome',
   components: {
@@ -52,7 +61,8 @@ export default {
     return {
       bool,
       Switch1Demo,
-      Switch2Demo
+      Switch2Demo,
+      Prism
     };
   }
 };

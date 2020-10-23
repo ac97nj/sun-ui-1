@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwitchDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GetStarted.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/install.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/intro.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +92,7 @@
       <workItem from="1603247860928" duration="473000" />
       <workItem from="1603347464894" duration="5708000" />
       <workItem from="1603415988096" duration="7170000" />
-      <workItem from="1603427112480" duration="6134000" />
+      <workItem from="1603427112480" duration="7513000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -254,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603429375317</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="展示源代码">
+      <created>1603440279885</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603440279885</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +297,8 @@
     <MESSAGE value="使用链接添加 icon" />
     <MESSAGE value="引入github 样式" />
     <MESSAGE value="优化 markdown.vue代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化 markdown.vue代码" />
+    <MESSAGE value="展示源代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="展示源代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="74" y="297" key="#Notifications" timestamp="1603075854082">
@@ -316,10 +318,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429451208" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603429375118">
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603440279689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429375118" />
+    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603440279689" />
     <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603365167968" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />
