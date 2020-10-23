@@ -20,19 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/md.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/GetStarted.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/install.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/intro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/markdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/GetStarted.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/GButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/GButton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/GDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/GDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GetStarted.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/install.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/intro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,8 @@
       <workItem from="1603173715560" duration="7740000" />
       <workItem from="1603247860928" duration="473000" />
       <workItem from="1603347464894" duration="5708000" />
-      <workItem from="1603415988096" duration="3881000" />
+      <workItem from="1603415988096" duration="7170000" />
+      <workItem from="1603427112480" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603365168191</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="引入github 样式">
+      <created>1603422308877</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603422308877</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +292,8 @@
     <MESSAGE value="使用 ref 来获取字符长度" />
     <MESSAGE value="重新正确的使用 current ,使用key 的方式" />
     <MESSAGE value="使用链接添加 icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用链接添加 icon" />
+    <MESSAGE value="引入github 样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入github 样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="74" y="297" key="#Notifications" timestamp="1603075854082">
@@ -294,14 +304,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="22" y="109" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1602638667602" />
-    <state x="170" y="266" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603096548678">
+    <state x="170" y="266" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603422698689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="170" y="266" key="#com.intellij.fileTypes.FileTypeChooser/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603422698689" />
     <state x="170" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1603096548678" />
-    <state x="429" y="23" key="CommitChangelistDialog2" timestamp="1603365167968">
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603422308667">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="648" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603185905543" />
+    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603422308667" />
     <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603365167968" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />

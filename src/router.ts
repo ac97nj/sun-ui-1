@@ -8,6 +8,11 @@ import tabsDome from './components/TabsDome.vue';
 import intro from './view/intro.vue';
 import install from './view/install.vue';
 import GetStarted from './view/GetStarted.vue';
+import {h} from 'vue';
+import Markdown from './components/markdown.vue'
+
+const md = filename => h(Markdown, { path: `../markdown/${filename}.md`, key: filename })
+
 
 const history = createWebHashHistory();
 export const router = createRouter({
@@ -21,9 +26,9 @@ export const router = createRouter({
         {path: 'dialog', component: dialogDome},
         {path: 'button', component: buttonDome},
         {path: 'tabs', component: tabsDome},
-        {path: 'intro', component: intro},
-        {path: 'install', component: install},
-        {path: 'get-stated', component: GetStarted}
+        { path: "intro", component: md('intro') },
+        {path: 'install', component: md('install')},
+        {path: 'get-stated', component: md('GetStarted')}
       ]
     }
   ]
