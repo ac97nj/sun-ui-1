@@ -11,10 +11,10 @@
       </li>
 
     </ul>
-    <svg
-        v-if="toggleMenuButtonVisible"
-        class="toggleAside" @click="toggle">
-          <use xlink:href="#icon-menu"></use>
+    <svg class="toggleAside"
+         v-if="toggleMenuButtonVisible"
+         @click="toggle">
+      <use xlink:href="#icon-menu"></use>
     </svg>
   </div>
 </template>
@@ -54,7 +54,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 20;
   justify-content: center;
   align-items: center;
 
@@ -100,8 +100,6 @@ export default {
     > .toggleAside {
       display: inline-block;
     }
-
-
   }
 
 

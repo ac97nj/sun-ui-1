@@ -5,22 +5,16 @@
 
 <script lang="ts">
 
-import {ref} from 'vue';
+
 
 export default {
   name: 'intro',
   props: {
-    path: {
-      type: String
+    content: {
+      type: String,
+      required: true
     }
   },
-  setup(props) {
-    const content = ref(null);
-    import(props.path).then(
-        result => content.value = result.default
-    );
-    return { content }
-  }
 
 };
 </script>

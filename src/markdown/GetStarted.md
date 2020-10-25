@@ -5,7 +5,7 @@
 然后在你的代码中写入下面的代码
 
 ```
-import {Button, Tabs, Switch, Dialog} from "king-ui"
+import {GButton, Tabs, Switch, GDialog} from "Sun-ui"
 ```
 
 就可以使用我提供的组件了。
@@ -17,13 +17,13 @@ import {Button, Tabs, Switch, Dialog} from "king-ui"
 ```
 <template>
   <div>
-    <Button>按钮</Button>
+    <GButton>按钮</GButton>
   </div>
 </template>
 <script>
-import {Button, Tabs, Switch, Dialog} from "king-ui"
+import {GButton, Tabs, Switch, GDialog} from "Sun-ui"
 export default {
-  components: {Button}
+  components: {GButton}
 }
 </script>
 ```

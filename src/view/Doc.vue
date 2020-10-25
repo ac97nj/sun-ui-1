@@ -95,9 +95,10 @@ aside {
   position: fixed;
   top: 0;
   left: 0;
-  //padding: 70px 16px 16px;
+
   padding: 16px 0;
   height: 100%;
+  z-index: 10;
 
 
   > div {
