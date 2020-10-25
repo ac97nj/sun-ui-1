@@ -19,11 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="基本完成 UI 库">
+    <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button4.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button5.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/GetStarted.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/GetStarted.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +114,11 @@
       <workItem from="1603611117985" duration="3311000" />
       <workItem from="1603622519576" duration="346000" />
       <workItem from="1603623886409" duration="44000" />
-      <workItem from="1603624350020" duration="273000" />
+      <workItem from="1603624350020" duration="1848000" />
+      <workItem from="1603626546508" duration="612000" />
+      <workItem from="1603627235319" duration="472000" />
+      <workItem from="1603629368841" duration="1259000" />
+      <workItem from="1603630654881" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -288,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603609274084</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="处理">
+      <created>1603624976030</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603624976030</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +330,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="完成 Topnav.vue的样式及封装" />
     <MESSAGE value="完成 Home.vue的样式" />
     <MESSAGE value="初步完成 Doc.vue 的样式" />
     <MESSAGE value="使用 flex 来调整列表样式" />
@@ -334,7 +354,8 @@
     <MESSAGE value="使用Prism.js" />
     <MESSAGE value="封装 Demo 并显示 Demo 标题" />
     <MESSAGE value="基本完成 UI 库" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成 UI 库" />
+    <MESSAGE value="处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="处理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="74" y="297" key="#Notifications" timestamp="1603075854082">
@@ -359,10 +380,10 @@
     </state>
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429451208" />
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603525611145" />
-    <state x="429" y="23" key="CommitChangelistDialog2" timestamp="1603611165635">
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603624975802">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603609273875" />
+    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603624975802" />
     <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603611165635" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />

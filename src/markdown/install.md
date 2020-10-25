@@ -3,13 +3,13 @@
 打开终端运行下列命令：
 
 ```
-npm install Sun-ui
+npm install sun-uia-0.0.1
 ```
 
 或
 
 ```
-yarn add Sun-ui
+yarn add sun-uia-0.0.1
 ```
 
 下一节：[开始使用](#/doc/get-stated)

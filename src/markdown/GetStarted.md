@@ -5,7 +5,7 @@
 然后在你的代码中写入下面的代码
 
 ```
-import {GButton, Tabs, Switch, GDialog} from "Sun-ui"
+import {GButton,GSwitch, GDialog ,Tab,Tabs,openDialog } from "sun-uia-0.0.1";
 ```
 
 就可以使用我提供的组件了。
@@ -21,7 +21,7 @@ import {GButton, Tabs, Switch, GDialog} from "Sun-ui"
   </div>
 </template>
 <script>
-import {GButton, Tabs, Switch, GDialog} from "Sun-ui"
+import {GButton,GSwitch, GDialog ,Tab,Tabs,openDialog } from "sun-uia-0.0.1";
 export default {
   components: {GButton}
 }
