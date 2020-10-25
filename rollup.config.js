@@ -11,8 +11,8 @@ export default {
     globals: {
       vue: 'Vue'
     },
-    name: 'Gulu',
-    file: 'dist/lib/gulu.js',
+    name: 'sun-ui-1',
+    file: 'dist/lib/sun-ui-1.js',
     format: 'umd',
     plugins: [terser()]
   },

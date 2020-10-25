@@ -20,19 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="基本完成 UI 库">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/IconOne.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/IconOne.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/SVgTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/SVgTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Svg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -51,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1iqXlzTAzm61HqIke4j5q3XIcsT" />
   <component name="ProjectViewState">
@@ -112,6 +103,8 @@
       <workItem from="1603609181773" duration="796000" />
       <workItem from="1603611117985" duration="3311000" />
       <workItem from="1603622519576" duration="346000" />
+      <workItem from="1603623886409" duration="44000" />
+      <workItem from="1603624350020" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -375,6 +368,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="134" y="100" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1602655600775" />
+    <state width="928" height="218" key="GridCell.Tab.0.bottom" timestamp="1603624409100">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="928" height="218" key="GridCell.Tab.0.bottom/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603624409100" />
+    <state width="928" height="218" key="GridCell.Tab.0.center" timestamp="1603624409099">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="928" height="218" key="GridCell.Tab.0.center/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603624409099" />
+    <state width="928" height="218" key="GridCell.Tab.0.left" timestamp="1603624409098">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="928" height="218" key="GridCell.Tab.0.left/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603624409098" />
+    <state width="928" height="218" key="GridCell.Tab.0.right" timestamp="1603624409099">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="928" height="218" key="GridCell.Tab.0.right/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603624409099" />
     <state x="209" y="87" key="RollbackChangesDialog" timestamp="1602833873980">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
