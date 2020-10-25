@@ -19,32 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
+    <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="基本完成 UI 库">
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/GetStarted.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/GetStarted.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/IconOne.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/IconOne.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/SVgTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/SVgTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Svg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +74,13 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/view" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/view" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -118,6 +109,9 @@
       <workItem from="1603525397858" duration="4490000" />
       <workItem from="1603539564720" duration="272000" />
       <workItem from="1603607584267" duration="1272000" />
+      <workItem from="1603609181773" duration="796000" />
+      <workItem from="1603611117985" duration="3311000" />
+      <workItem from="1603622519576" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -294,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603444810724</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="基本完成 UI 库">
+      <created>1603609274084</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603609274084</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +340,8 @@
     <MESSAGE value="展示源代码" />
     <MESSAGE value="使用Prism.js" />
     <MESSAGE value="封装 Demo 并显示 Demo 标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装 Demo 并显示 Demo 标题" />
+    <MESSAGE value="基本完成 UI 库" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成 UI 库" />
   </component>
   <component name="WindowStateProjectService">
     <state x="74" y="297" key="#Notifications" timestamp="1603075854082">
@@ -364,11 +366,11 @@
     </state>
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429451208" />
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603525611145" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603444810549">
+    <state x="429" y="23" key="CommitChangelistDialog2" timestamp="1603611165635">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603444810549" />
-    <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603365167968" />
+    <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603609273875" />
+    <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603611165635" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -386,10 +388,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="53" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603433155023" />
-    <state x="93" y="218" width="524" height="486" key="find.popup" timestamp="1603367065114">
+    <state x="93" y="218" width="524" height="486" key="find.popup" timestamp="1603622040282">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="93" y="218" width="524" height="486" key="find.popup/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603182153810" />
+    <state x="93" y="218" width="524" height="486" key="find.popup/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603622040282" />
     <state x="93" y="218" width="524" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1603367065114" />
   </component>
 </project>

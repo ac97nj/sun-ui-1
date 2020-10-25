@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import './Svg.js'
+import '../assets/Svg.js'
 
 export default {
   name: 'IconOne',
