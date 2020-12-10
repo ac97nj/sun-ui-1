@@ -2,7 +2,7 @@
   <div class="topnavBanner">
     <Topnav></Topnav>
     <div class="banner">
-      <h1>Sun-UI</h1>
+      <h1>Totoro-UI</h1>
       <h2>基于 Vue 3开发的极简UI框架</h2>
       <p class="actions">
         <a href="https://github.com/FrankFang/GEIUHH6wQRwj/commit/">GitHub</a>

@@ -2,7 +2,7 @@
   <div class="topnav">
     <router-link class="logo" to="/">
       <svg class="icon">
-        <use xlink:href="#icon-taiyang"></use>
+        <use xlink:href="#icon-longmao"></use>
       </svg>
     </router-link>
     <ul class="menu">

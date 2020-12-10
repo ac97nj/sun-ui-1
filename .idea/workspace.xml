@@ -20,21 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1242f67e-bd2b-47b5-84e3-0cc279fa9c55" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button4.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button4.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button5.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button5.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch2.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/GetStarted.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/GetStarted.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +45,7 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1iqXlzTAzm61HqIke4j5q3XIcsT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -118,7 +110,20 @@
       <workItem from="1603626546508" duration="612000" />
       <workItem from="1603627235319" duration="472000" />
       <workItem from="1603629368841" duration="1259000" />
-      <workItem from="1603630654881" duration="315000" />
+      <workItem from="1603630654881" duration="635000" />
+      <workItem from="1603631296631" duration="21000" />
+      <workItem from="1603631366345" duration="693000" />
+      <workItem from="1603677621411" duration="731000" />
+      <workItem from="1603678436939" duration="1602000" />
+      <workItem from="1603869268705" duration="245000" />
+      <workItem from="1604386715436" duration="548000" />
+      <workItem from="1604391293493" duration="13000" />
+      <workItem from="1604392049734" duration="290000" />
+      <workItem from="1605811422941" duration="151000" />
+      <workItem from="1607591301300" duration="54000" />
+      <workItem from="1607591934058" duration="406000" />
+      <workItem from="1607592385345" duration="1000" />
+      <workItem from="1607592444734" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="完成 Topnav.vue的样式及封装">
       <created>1602650884116</created>
@@ -309,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603624976030</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="跟新修改">
+      <created>1603631073478</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603631073478</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +342,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="完成 Home.vue的样式" />
     <MESSAGE value="初步完成 Doc.vue 的样式" />
     <MESSAGE value="使用 flex 来调整列表样式" />
     <MESSAGE value="Topnav.vue使用 z-index提到最高盖住样式" />
@@ -355,7 +366,8 @@
     <MESSAGE value="封装 Demo 并显示 Demo 标题" />
     <MESSAGE value="基本完成 UI 库" />
     <MESSAGE value="处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="处理" />
+    <MESSAGE value="跟新修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="跟新修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="74" y="297" key="#Notifications" timestamp="1603075854082">
@@ -380,9 +392,10 @@
     </state>
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603429451208" />
     <state x="134" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603525611145" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603624975802">
+    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1603631073245">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="207" y="23" key="CommitChangelistDialog2/-1016.113.1016.787/0.23.1440.877@0.23.1440.877" timestamp="1603631073245" />
     <state x="207" y="23" key="CommitChangelistDialog2/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603624975802" />
     <state x="429" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1603611165635" />
     <state x="134" y="100" key="DiffContextDialog" timestamp="1602655600775">
@@ -418,10 +431,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="53" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603433155023" />
-    <state x="93" y="218" width="524" height="486" key="find.popup" timestamp="1603622040282">
+    <state x="706" y="196" width="524" height="486" key="find.popup" timestamp="1607592610452">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="93" y="218" width="524" height="486" key="find.popup/-1080.23.1080.787/0.23.1440.877@0.23.1440.877" timestamp="1603622040282" />
-    <state x="93" y="218" width="524" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1603367065114" />
+    <state x="706" y="196" width="524" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1607592610452" />
+    <state x="216" y="356" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607592380969">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="217" y="356" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-1016.113.1016.787/0.23.1440.877@0.23.1440.877" timestamp="1603681895286" />
+    <state x="216" y="356" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.877@0.23.1440.877" timestamp="1607592380969" />
   </component>
 </project>
